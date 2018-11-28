@@ -1,2 +1,2 @@
 # Basic-Portfolio
-Building a professional portfolio 
+Building a professional portfolio using HTML/CSS.
