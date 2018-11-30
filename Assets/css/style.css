@@ -1,0 +1,64 @@
+
+
+* {
+    box-sizing: border-box;
+}
+main {
+    min-height: 100%;
+    margin-bottom: -100px;
+}
+body{
+    
+    background-image: url("../images/backgrd_img1.jpeg");
+    background-size: cover;
+    font-family: 'Georgia',Times,Times New Roman,serif;
+    
+}
+
+
+img#headshot {
+    padding-right: 5%;
+    float: left;
+}
+h2{
+    color:#4aaaa5;
+}
+
+
+
+p{
+    color:#777777;
+    border:#dddddd;
+    line-height: 1.5em;
+     padding: 2.5% 5%;
+     text-align: auto;
+}
+
+@media screen and (max-width: 600px) {
+
+    h1,
+    nav li,
+    article.portfolio {
+        float: none;
+    }
+
+footer{
+    background-color: #666666;
+}
+
+footer,
+.push {
+    height: 100px;
+}
+li.nav {
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+}
+h1.nav,
+nav li {
+    text-align: center;
+    width: 100%;
+}
